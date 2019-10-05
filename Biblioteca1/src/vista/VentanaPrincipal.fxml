@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="451.0" prefWidth="636.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.VentanaPrincipalController">
+   <children>
+      <BorderPane fx:id="principalPane" layoutX="218.0" layoutY="126.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="Estadisticos">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#handleLibrosMenu" text="Libros" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleAmigosMenu" text="Amigos" />
+                        <MenuItem mnemonicParsing="false" onAction="#handleListaLibrosMenu" text="Lista de libros mas prestados" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top></BorderPane>
+   </children>
+</AnchorPane>
